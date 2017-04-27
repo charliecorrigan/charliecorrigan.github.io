@@ -1,0 +1,169 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+	padding: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+.container {
+	min-height: 85%;
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+
+.container:after {
+	content: "";
+	display: block;
+}
+
+.banner_index {
+	width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    margin: auto;
+}
+
+#banner_png {
+	width: 50%;
+}
+
+.nav_bar_wrapper {
+	width: 100%;
+	float: left;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
+
+.nav_bar {
+	list-style: none;
+	width: 80%;
+	height: 50px;
+	margin-bottom: 20px;
+	position: relative;
+	font-family: 'Josefin Slab', serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding:0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nav_bar li {
+	float: left;
+	width: 25%;
+	height: 100%;
+	display: block;
+	text-align: center;
+	line-height: 1.5em;
+	background-color: #E2E2E2;
+	color: #000000;
+	border: 5px solid white;
+	border-radius: 8px;
+	padding: auto;
+	margin-left: auto;
+	margin-right: auto;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.nav_bar a {
+	text-decoration: none;
+	color: #000000;
+}
+
+a.active {
+	text-decoration: none;
+	color: #000000;
+}
+
+.nav_button {
+	opacity: 0.8;
+}
+
+.index_img_table {
+		margin-left: auto;
+   		margin-right: auto;
+		width: 90%;
+		text-align: center;
+		padding-left: 5%;
+		padding-right: 5%;
+}
+
+.m_index_img {
+	display: none;
+}
+
+tr, th, td {
+		border: none;
+		border-collapse: collapse;
+		text-align: center;
+		vertical-align: top;		
+}
+
+h2 {
+	float:left;
+	font-family: 'Josefin Slab', serif;
+	font-size: 1.5em;
+	color: #000000;
+	padding-top: 10px;
+}
+
+.left_img{
+	float: right;
+	padding-left: 5px;
+	width: 25%;
+}
+
+.left_blog_img{
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-bottom: 15px;
+	border-radius: 20px;
+}
+
+div.text_block {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding-left: 11%;
+	padding-right: 10%;
+	display: block;
+	float: left;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 1em;
+	color: #000000;
+}
+
+div.gallery_thumbnails a {
+	float: left;
+	display: inline;
+	border: solid #FFFFFF 5px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+div.gallery_thumbnails {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.the_foot, .container:after {
+	height: 50px;
+	background: #FFFFFF;
+	text-align: center;
+}
